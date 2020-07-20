@@ -26,12 +26,10 @@
         style="@style/whiteBox"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:text="@string/box_two"
-        android:textStyle="normal"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/box_one_text" />
+        app:layout_constraintTop_toBottomOf="@+id/box_one_text"
+        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/box_three_text"
